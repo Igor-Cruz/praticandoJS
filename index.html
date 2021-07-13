@@ -8,12 +8,79 @@
     <title>Cadastro de Anúncios</title>
   </head>
   <body>
-    <div class="container">
-      <!-- Calculadora de alcance de anúncio -->
-      <div class="calc">Calculadora</div>
+    <header>
+      <ul>
+        <li><a href="">Cadastro</a></li>
+        <li><a href="">Calculadora</a></li>
+      </ul>
+    </header>
+    <div class="container1">
+      <!-- Cadastro de alcance de anúncio -->
+      <div class="cadastro">
+        <form action="">
+          <h2>Cadastro</h2>
+          <label for="">Nome do anúncio</label>
+          <br />
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Insira o nome do anúncio"
+          />
+          <br />
+          <br />
+          <label for="">Cliente</label>
+          <br />
+          <input type="text" name="" id="" placeholder="Cliente" />
+          <br /><br />
+          <label for="">Data de Início</label>
+          <br />
+          <input type="date" name="" id="" />
+          <br /><br />
+          <label for="">Data de Término</label>
+          <br />
+          <input type="date" name="" id="" />
+          <br /><br />
+          <label for="">Investimento por dia</label>
+          <br />
+          <input type="number" name="" id="" />
+          <br /><br />
+          <button type="submit">Cadastrar</button>
+          <button type="reset">Limpar</button>
+        </form>
+      </div>
 
-      <!-- Cadastro de anúncio -->
-      <div class="vendas">Anúncio</div>
+      <!-- Relatório de anúncio -->
+      <div class="relatorio">
+        <div>
+          <h2>Relatório</h2>
+          <label for="">Cliente</label>
+          <br />
+          <input type="text" name="" id="" placeholder="Cliente" />
+          <br /><br />
+          <label for="">Intervalo de Tempo</label>
+          <br />
+          <input type="datetime-local" name="" id="" />
+          <br /><br />
+          <button type="submit" onclick="">Buscar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <!-- Calculadora de anúncio -->
+      <div class="calculadora">
+        <div>
+          <h2>Calculadora</h2>
+
+          <label for="">Valor investido</label>
+          <br />
+          <input type="number" name="" id="" />
+          <br /><br />
+          <button type="submit">Calcular</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </div>
     </div>
 
     <script src="main.js"></script>

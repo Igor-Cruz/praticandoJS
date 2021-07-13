@@ -6,10 +6,9 @@
 }
 
 body {
-  background-color: black;
 }
 
-.container {
+.container1 {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -17,16 +16,48 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+  background-color: black;
 }
 
-.calc {
+.cadastro {
   width: 30%;
   height: 70%;
   background-color: blanchedalmond;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.vendas {
+.relatorio {
   width: 30%;
   height: 70%;
   background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: chartreuse;
+}
+
+.calculadora {
+  background-color: burlywood;
+  width: 30%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculadora h2 {
+  display: flex;
+  align-items: flex-start;
 }
